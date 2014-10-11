@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<!--[if IE 8]> 				 <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+
+<head>
+	<meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+    
+    <!-- Use title if it's in the page YAML frontmatter -->
+    <title>Which watch suits you?</title>
+    
+    <link type="text/css" href="/stylesheets/normalize.css" rel="stylesheet" media="screen" />
+<link type="text/css" href="/stylesheets/app.css" rel="stylesheet" media="screen" />
+<link type="text/css" href="/stylesheets/style.css" rel="stylesheet" media="screen" />
+    <script type="text/javascript" src="/javascripts/vendor/custom.modernizr.js"></script>
+  </head>
+  
+  <body class="index">
+    <meta name="description" content="This is the description of my webpage that I really want to have shared on Facebook!" />
+<div id="wholepage">
+<div id="mainpart">
+<div id="container" class="text-center hide">
+    <div class="row">
+        <div id="js-progress" class="progress success radius"><span class="meter" style="width: 0%"></span></div>
+        <div id="js-content">
+        </div>
+        <div class="columns large-6">
+            <button class="large button success expand radius" id="js-me">That's Me</button>
+        </div>
+        <div class="columns large-6">
+            <button href="#" class="large button alert expand radius" id="js-notme">Not Me</button>
+        </div>
+    </div>
+</div>
+
+<script id="step-template" type="text/x-handlebars-template">
+    <h1 class="subheader"><i>{{statement}}</i></h1>
+</script>
+
+<script id="result-template" type="text/x-handlebars-template">
+    <div class="row">
+        <div class="large-3 columns large-offset-1">
+            {{#each images}}
+                <div class="row">
+                    <div class="productbox"><span>{{{this}}}</span></div>
+                    <!--<p class="label"><strong>{{../name}}</strong></p>-->
+                    <!--<a class="th" href="{{../products.[0]}}" target="_blank">
+                    <img src="{{this}}" class="medium"><p class="label">Purchase this <strong>{{../name}}</strong></p>
+                    </a>-->
+                </div>
+            {{/each}}
+
+        </div>
+        <div class="large-7 columns">
+            <h1 class="subheader"><em>Based on your test results, you will fall in love with <a href="{{brandurl}}"><strong>{{name}}</strong></a></em></h1>
+            <button class="large button radius"
+              onclick="
+                window.open(
+                  'https://www.facebook.com/sharer/sharer.php?u=http://watch.whichbrandisme.com&t=otsikkoa&p[title]=otsikkoa&p[summary]=otsikkoa'+encodeURIComponent(location.href), 
+                  'facebook-share-dialog', 
+                  'width=626,height=436'); 
+                return false;">
+              Share my styles on Facebook
+            </button>
+            {{#each result}}
+                <p style="font-size:1.2em; color:grey">{{this}}</p>
+            {{/each}}
+            <div class="row">
+                <ul class="large-block-grid-3">
+                {{#each products}}
+                    <li>{{{this}}}</li>
+                {{/each}}
+                    <li><a href="javascript:location.reload(true)">Do the test again</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-42481197-1', 'whichbrandisme.com');
+  ga('send', 'pageview');
+
+</script>
+</div>
+</div>
+<div id="pagefooter">
+This page by WhichBrandIsMe.com 2013. Not affiliated with any company.
+</div>
+
+
+  <script>
+    document.write('<script src=' +
+    ('__proto__' in {} ? 'javascripts/vendor/zepto' : 'javascripts/vendor/jquery') +
+    '.js><\/script>')
+  </script>
+
+  <script type="text/javascript" src="/javascripts/all.js"></script>
+
+  <script>
+    $(document).foundation();
+  </script>
+</body>
+</html>
