@@ -6,9 +6,9 @@
 	<base target="_blank" />
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width" />
-  <meta name="description" content="Take the AskMeFive watches test to find out which watch brand fits your personality and style. Find the watch that fits your style in 30 seconds by using this easy test. " />
+  <meta name="description" content="AskMeFive-testin avulla löydät oman tyylisi viidessätoista sekunnissa. " />
     <!-- Use title if it's in the page YAML frontmatter -->
-    <title>Which watch suits me?</title>
+    <title>Millainen laukku sopii minulle?</title>
     <link rel="shortcut icon" href="favicon.ico" />
     <link type="text/css" href="/stylesheets/normalize.css" rel="stylesheet" media="screen" />
 <link type="text/css" href="/stylesheets/app.css" rel="stylesheet" media="screen" />
@@ -25,10 +25,10 @@
                 <div id="js-content">
                 </div>
                 <div class="columns small-6">
-                    <button class="large button success expand radius" id="js-me">That's Me</button>
+                    <button class="large button success expand radius" id="js-me">Näin on</button>
                 </div>
                 <div class="columns small-6">
-                    <button href="#" class="large button alert expand radius" id="js-notme">Not Me</button>
+                    <button href="#" class="large button alert expand radius" id="js-notme">Ei näin</button>
                 </div>
             </div>
         </div>
@@ -40,7 +40,7 @@
         <script id="result-template" type="text/x-handlebars-template">
         <div class="row">       
             <div class="large-9 large-centered columns">
-                <h1 class="subheader"><em>Based on your test results, you will fall in love with <a href="https://imaging.stockmann.com{{products.[0].affiliateid}}/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN={{products.[0].affiliateid}}">{{name}}</a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=whichbrandi0e-20&l=as2&o=1&a={{products.[0].affiliateid}}&linkCode=as2&tag=whichbrandi0e-20" width='1' height='1' border='0' alt='' style='border:none !important; margin:0px !important;' /></em></h1>
+                <h1 class="subheader"><em>Testin perusteella sinulle täydellinen tuote on <a href="{{products.[0].link}}">{{name}}</a></em></h1>
             </div>
             <div class="row sameheight">
                 <div class="large-8 push-4 columns">
@@ -64,19 +64,19 @@
             </div>
             <div class="row">
                 <div class="small-6 columns">
-                    <button class="large button success expand radius" id="js-share">That´s Me!</button>
+                    <button class="large button success expand radius" id="js-share">Näin on!</button>
                 </div>
                 <div class="small-6 columns">
-                    <button id="js-reload" class="large button alert expand radius">Not Me <span>(restart)</span></button>
+                    <button id="js-reload" class="large button alert expand radius">Ei näin <span>(restart)</span></button>
                 </div>
             </div>
             <div class="row">
                 <div class="large-9 large-centered columns">
                     <form>
                         <fieldset>
-                            <legend>Copy and share this snippet</legend>
-                            <p>Based on my test results, I will fall in love with <a href="http://www.amazon.com/gp/product/{{products.[0].affiliateid}}/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN={{products.[0].affiliateid}}">{{name}}</a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=whichbrandi0e-20&l=as2&o=1&a={{products.[0].affiliateid}}&linkCode=as2&tag=whichbrandi0e-20" width='1' height='1' border='0' alt='' style='border:none !important; margin:0px !important;' /></p>
-                            <p>{{share}}</p>
+                            <legend>Vinkkaa testistä kaverillesi</legend>
+                            <p>Tein laukkutestin <a href="http://askmefive.co">AskMeFive.co</a>-sivulla ja sain 15 sekunnissa selville mistä laukuista pidän. Minun lempilaukkuni on <a href="{{products.[0].link}}">{{name}}</a>. Testaa sinäkin tyylisi!</p>
+                            
                                    <!--<button class="button secondary radius" id="js-share">Share snippet on Facebook</button>-->
                         </fieldset>
 

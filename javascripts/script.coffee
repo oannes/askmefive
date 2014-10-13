@@ -1,15 +1,15 @@
 $ ->
     statements = [
-        "My purse: I'm willing to invest in it to get exactly what I want.",
-        "I don't care what other people think of me.",
-        "I'm interested in what material my home curtains are made of",
-        "I always think that successful people should show their success.",
-        "It's not what you do, it's how you do it.",
+        "Olen valmis sijoittamaan olkalaukkuuni saadakseni sellaisen laukun kuin haluan", #My purse: I'm willing to invest in it to get exactly what I want.",
+        "Minä en vaivaa päätäni sillä mitä muut minusta ajattelevat", #I don't care what other people think of me.",
+        "Minua kiinnostaa mistä materiaalista kotini verhot on tehty", #"I'm interested in what material my home curtains are made of",
+        "Menestyksen pitää näkyä tyylivalinnoissa", #"I always think that successful people should show their success.",
+        "Valitsen mielelläni ravintolossa varman valinnan sijaan ruuan, jota en ole ennen maistanut", #"It's not what you do, it's how you do it.",
 
     ]
     watches = [
         {
-            name: "Michael Kors bags",
+            name: "Michael Kors -laukku",
             products: [
                 {
                 productname: "Hamilton Center Stripe Studded LG NS Tote"
@@ -23,7 +23,7 @@ $ ->
             total: 0
         },
         {
-            name: "Ralph Lauren",
+            name: "Ralph Lauren -laukku",
             products: [
                 {
                 productname: "Convertible Tote"
@@ -37,7 +37,7 @@ $ ->
             total: 0
         },
         {
-            name: "Aigner",
+            name: "Aigner-laukku",
             products: [
                 {
                 productname: "Quadriga M"
@@ -51,7 +51,7 @@ $ ->
             total: 0
         },
         {
-            name: "Furla",
+            name: "Furla-laukku",
             products: [
                 {
                 productname: "Cortina L"
@@ -65,7 +65,7 @@ $ ->
             total: 0
         },
         {
-            name: "Furla",
+            name: "Furla-laukku",
             products: [
                 {
                 productname: "New Piper Lux L"
@@ -79,7 +79,7 @@ $ ->
             total: 0
         },
         {
-            name: "Ralph Lauren",
+            name: "Ralph Lauren -laukku",
             products: [
                 {
                 productname: "Newbury Belted Satchel"
@@ -93,7 +93,7 @@ $ ->
             total: 0
         },
         {
-            name: "Aigner",
+            name: "Aigner -laukku",
             products: [
                 {
                 productname: "Aigner"
@@ -107,7 +107,7 @@ $ ->
             total: 0
         },
         {
-            name: "Michael Kors",
+            name: "Michael Kors -laukku",
             products: [
                 {
                 productname: "Hamilton LG Traveler"
@@ -121,7 +121,7 @@ $ ->
             total: 0
         },
         {
-            name: "Global Accessories",
+            name: "Global Accessories -laukku",
             products: [
                 {
                 productname: "Global Accessories"
@@ -135,7 +135,7 @@ $ ->
             total: 0
         },
         {
-            name: "Armani Jeans",
+            name: "Armanin laukku",
             products: [
                 {
                 productname: "Armani Jeans"
@@ -149,7 +149,7 @@ $ ->
             total: 0
         },
         {
-            name: "Marimekko",
+            name: "Marimekon laukku",
             products: [
                 {
                 productname: "Marimekko"
@@ -163,7 +163,7 @@ $ ->
             total: 0
         },
         {
-            name: "Ralph Lauren",
+            name: "Ralph Lauren -laukku",
             products: [
                 {
                 productname: "Denim & Supply"
@@ -177,7 +177,7 @@ $ ->
             total: 0
         },
         {
-            name: "Ralph Lauren",
+            name: "Ralph Lauren -laukku",
             products: [
                 {
                 productname: "Novelty N/S Tote"
@@ -191,7 +191,7 @@ $ ->
             total: 0
         },
         {
-            name: "Armani Jeans",
+            name: "Armanin laukku",
             products: [
                 {
                 productname: "Armani Jeans"
@@ -205,7 +205,7 @@ $ ->
             total: 0
         },
         {
-            name: "Marimekko",
+            name: "Marimekon laukku",
             products: [
                 {
                 productname: "Olkalaukku"
@@ -219,7 +219,7 @@ $ ->
             total: 0
         },
         {
-            name: "Global Accessories",
+            name: "Global Accessories -laukku",
             products: [
                 {
                 productname: "Global Accessories"

@@ -2,10 +2,10 @@
 (function() {
   $(function() {
     var count, currentStatement, onMeClick, onNotMeClick, onReloadClick, onShareClick, render, statements, watches, winner;
-    statements = ["My purse: I'm willing to invest in it to get exactly what I want.", "I don't care what other people think of me.", "I'm interested in what material my home curtains are made of", "I always think that successful people should show their success.", "It's not what you do, it's how you do it."];
+    statements = ["Olen valmis sijoittamaan olkalaukkuuni saadakseni sellaisen laukun kuin haluan", "Minä en vaivaa päätäni sillä mitä muut minusta ajattelevat", "Minua kiinnostaa mistä materiaalista kotini verhot on tehty", "Menestyksen pitää näkyä tyylivalinnoissa", "Valitsen mielelläni ravintolossa varman valinnan sijaan ruuan, jota en ole ennen maistanut"];
     watches = [
       {
-        name: "Michael Kors bags",
+        name: "Michael Kors -laukku",
         products: [
           {
             productname: "Hamilton Center Stripe Studded LG NS Tote",
@@ -18,7 +18,7 @@
         points: [10, 10, -2, 2, 1],
         total: 0
       }, {
-        name: "Ralph Lauren",
+        name: "Ralph Lauren -laukku",
         products: [
           {
             productname: "Convertible Tote",
@@ -31,7 +31,7 @@
         points: [10, 10, -1, -2, -2],
         total: 0
       }, {
-        name: "Aigner",
+        name: "Aigner-laukku",
         products: [
           {
             productname: "Quadriga M",
@@ -44,7 +44,7 @@
         points: [10, 10, 2, 0, -3],
         total: 0
       }, {
-        name: "Furla",
+        name: "Furla-laukku",
         products: [
           {
             productname: "Cortina L",
@@ -57,7 +57,7 @@
         points: [10, 10, -1, 1, 2],
         total: 0
       }, {
-        name: "Furla",
+        name: "Furla-laukku",
         products: [
           {
             productname: "New Piper Lux L",
@@ -70,7 +70,7 @@
         points: [10, -10, -2, 2, 1],
         total: 0
       }, {
-        name: "Ralph Lauren",
+        name: "Ralph Lauren -laukku",
         products: [
           {
             productname: "Newbury Belted Satchel",
@@ -83,7 +83,7 @@
         points: [10, -10, -1, -2, -2],
         total: 0
       }, {
-        name: "Aigner",
+        name: "Aigner -laukku",
         products: [
           {
             productname: "Aigner",
@@ -96,7 +96,7 @@
         points: [10, -10, 2, 0, -3],
         total: 0
       }, {
-        name: "Michael Kors",
+        name: "Michael Kors -laukku",
         products: [
           {
             productname: "Hamilton LG Traveler",
@@ -109,7 +109,7 @@
         points: [10, -10, -1, 1, 2],
         total: 0
       }, {
-        name: "Global Accessories",
+        name: "Global Accessories -laukku",
         products: [
           {
             productname: "Global Accessories",
@@ -122,7 +122,7 @@
         points: [-10, 10, -2, 2, 1],
         total: 0
       }, {
-        name: "Armani Jeans",
+        name: "Armanin laukku",
         products: [
           {
             productname: "Armani Jeans",
@@ -135,7 +135,7 @@
         points: [-10, 10, -1, -2, -2],
         total: 0
       }, {
-        name: "Marimekko",
+        name: "Marimekon laukku",
         products: [
           {
             productname: "Marimekko",
@@ -148,7 +148,7 @@
         points: [-10, 10, 2, 0, -3],
         total: 0
       }, {
-        name: "Ralph Lauren",
+        name: "Ralph Lauren -laukku",
         products: [
           {
             productname: "Denim & Supply",
@@ -161,7 +161,7 @@
         points: [-10, 10, -1, 1, 2],
         total: 0
       }, {
-        name: "Ralph Lauren",
+        name: "Ralph Lauren -laukku",
         products: [
           {
             productname: "Novelty N/S Tote",
@@ -174,7 +174,7 @@
         points: [-10, -10, -2, 2, 1],
         total: 0
       }, {
-        name: "Armani Jeans",
+        name: "Armanin laukku",
         products: [
           {
             productname: "Armani Jeans",
@@ -187,7 +187,7 @@
         points: [-10, -10, -1, -2, -2],
         total: 0
       }, {
-        name: "Marimekko",
+        name: "Marimekon laukku",
         products: [
           {
             productname: "Olkalaukku",
@@ -200,7 +200,7 @@
         points: [-10, -10, 2, 0, -3],
         total: 0
       }, {
-        name: "Global Accessories",
+        name: "Global Accessories -laukku",
         products: [
           {
             productname: "Global Accessories",
