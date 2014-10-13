@@ -1,195 +1,237 @@
 $ ->
     statements = [
-        "My watch: Analogue, definitely not digital.",
-        "I love technology. I want to know how things work.",
-        "I want people to know that my watch is valuable.",
-        "I prefer city breaks to beach holidays.",
-        "I know what Bang & Olufsen audio is and would definitely get some.",
-        "I prefer a leather strap to metal.",
-        "Stopwatch, calendar, altitude: The more features the better.",
-        "Deep inside, I'm a suit, not a creative.",
-        "I want people to go “OH” when they hear which brand my watch is.",
-        "I need my watch to cost less than $100.",
-        "I'm willing to pay more than $500 for my watch.",
-        "Sports are cool. I want my watch to communicate this.",
-        "I like Formula 1.",
-        "I always wanted to fly aeroplanes.",
-        "I have opinions about typography.",
-        "Gold is a nice color.",
-        "I know what Bauhaus design is. And it's rather cool.",
-        "I think riding bicycles is stylish."
+        "My purse: I'm willing to invest in it to get exactly what I want.",
+        "I don't care what other people think of me.",
+        "I'm interested in what material my home curtains are made of",
+        "I always think that successful people should show their success.",
+        "It's not what you do, it's how you do it.",
+
     ]
     watches = [
         {
-            name: "IWC",
+            name: "Michael Kors bags",
             products: [
                 {
-                productname: "IWC Portuguese Chronograph Automatic Mens Watch IW371446"
-                affiliateid: "B0070LPR8C"
+                productname: "Hamilton Center Stripe Studded LG NS Tote"
+                image: "https://imaging.stockmann.com/web/112/382/056/F_86de85e51416ae8a105bdbe60b7c873773f00c64/112382056_1.jpg?width=769&height=1026"
+                link: "https://stockmann.com/fi/naiset/asusteet/laukut-ja-lompakot/laukut/michael-michael-kors-hamilton-center-stripe-studded-lg-ns-tote-nahkalaukku--11301/119713?itemId=826353" 
                 },
-                {
-                productname: "IWC Portofino Silver Dial Chronograph Brown Leather Mens Watch IW391007"
-                affiliateid: "B00AZWYGXK"
-                }
             ]
-            share: "According to http://WhichBrandIsMe.com watch test, I'm a design-concious cosmopolitan. What your taste tells about you?"
-            result: ["Congrats! You are a design-conscious cosmopolitan! You are at home on the backstreets of Rome as well as the bars of the Upper West Side. You love beautiful things and know how to get them.", "
-            You should definitely buy an IWC watch. Hailing from Schaffhausen, IWC makes some of the more elegant Swiss watches with minimal clutter and none of that overdone bling. Check out these examples!"]
-            points: [3, -2, 2, 2, 3, 2, -2, 0, -1, -12, 6, -3, -3, 0, 3, -2, 3, 2],
+            share: "According to AskMeFive.co test, I'm not afraid to show that I've made it in life. What your taste tells about you?"
+            result: [""]
+            points: [10, 10, -2, 2, 1],
             total: 0
         },
         {
-            name: "Rolex",
+            name: "Ralph Lauren",
             products: [
                 {
-                productname: "Rolex Datejust II Black Roman Dial 18k Yellow Gold Fluted Bezel Two Tone Oyster Bracelet Mens Watch 116333BKRO"
-                affiliateid: "B007ISHUQ4"
+                productname: "Convertible Tote"
+                image: "https://imaging.stockmann.com/web/115/607/194/F_c361a02888a964e773457c74d982c2ab076db3db/115607194_1.jpg?width=769&height=1026"
+                link: "https://stockmann.com/fi/naiset/asusteet/laukut-ja-lompakot/laukut/lauren-ralph-lauren-convertible-tote-nahkalaukku--11301/119713?itemId=811608" 
                 },
-                {
-                productname: "Rolex Mens New Style Heavy Band Stainless Steel & 18K Gold Datejust Model 116233 Jubilee Band Fluted Bezel White Diamond Dial"
-                affiliateid: "B00BPFJQ9A"
-                }
             ]
-            share: "According to http://WhichBrandIsMe.com watch test, I'm not afraid to show that I've made it in life. What your taste tells about you?"
-            result: ["Wow, you've got some balls! You've made it in life and are not afraid to show it. You're at home whereever you go 'cause the world is your playground.", "You should definitely buy a Rolex. The number 1 luxury watch of the world, Rolex is a sure-fire conversation starter and a treasure everyone is sure to recognize. Check out these examples!"]
-            points: [3, 0, 3, -2, -2, -1, -1, 2, 3, -12, 6, -3, 2, 0, -2, 4, -3, -2],
+            share: "According to AskMeFive.co test, I'm know my preferences. What your taste tells about you?"
+            result: [""]
+            points: [10, 10, -1, -2, -2],
             total: 0
         },
         {
-            name: "Timex",
+            name: "Aigner",
             products: [
                 {
-                productname: "Timex Originals T2N626 Mens Indiglo PREMIUM ORIGINALS Natural Tan Watch"
-                affiliateid: "B005DKHJII"
+                productname: "Quadriga M"
+                image: "https://imaging.stockmann.com/web/118/206/158/F_5770422c5340724176d7d2c237c9375886106c3b/118206158_1.jpg?width=769&height=1026"
+                link: "https://stockmann.com/fi/naiset/asusteet/laukut-ja-lompakot/laukut/aigner-quadriga-m-nahkalaukku--11301/119713?itemId=896531" 
                 },
-                {
-                productname: "Timex Premium Originals Men's watch #T2N793"
-                affiliateid: "B007P4YR6M"
-                }
             ]
-            share: "According to http://WhichBrandIsMe.com watch test, I don't need big bucks to show my excuisite taste. What your taste tells about you?"
-            result: ["You've got classic style! Alas, you might not yet have the budget to match your excuisite taste. But not to worry! With your sense of style you're bound to be a winner!", "You should definitely take a look at Timex watches. An American classic with roots in 1850s Connecticut, Timex offers great classical design at great prices. Check out these examples!"]
-            points: [3, -1, -2, 1, 1, 0, -1, 0, -2, 8, -5, -2, -2, 0, 2, -2, 2, 0],
+            share: "According to AskMeFive.co test, I'm know my preferences. What your taste tells about you?"
+            result: [""]
+            points: [10, 10, 2, 0, -3],
             total: 0
         },
         {
-            name: "Casio",
+            name: "Furla",
             products: [
                 {
-                productname: "Casio Men's Silver Tone 25 Memory Calculator Databank Watch"
-                affiliateid: "B007HHVVCK"
+                productname: "Cortina L"
+                image: "https://imaging.stockmann.com/web/118/875/859/F_6896dd30f3d34f7338ce69b655928c07c416a172/118875859_1.jpg?width=769&height=1026"
+                link: "https://stockmann.com/fi/naiset/asusteet/laukut-ja-lompakot/laukut/cortina-l-nahkalaukku-926410--11301/119713?itemId=926411" 
                 },
-                {
-                productname: "Casio Dress Digital Mens Watch A168WG9"
-                affiliateid: "B002LAS086"
-                }
             ]
-            share: "According to http://WhichBrandIsMe.com watch test I should be an electropop star with a startup on the side! What your taste tells about you?"
-            result: ["Do you run a DJ app startup? If not, you should! You are the perfect combination of geek and cool, electropop and emotions. And you do love things that go beep, don't you?", "You should definitely look at Casio watches. A digital classic from the 70s onwards, Casio has long been the go-to brand for computer guys with a cool edge. Check out these examples!"]
-            points: [-3, 2, -2, 1, -1, -1, 1, -1, 1, 8, -5, -2, -2, 0, 2, -2, -3, 2],
+            share: "According to AskMeFive.co test, I'm know my preferences. What your taste tells about you?"
+            result: [""]
+            points: [10, 10, -1, 1, 2],
             total: 0
         },
         {
-            name: "Swatch",
+            name: "Furla",
             products: [
                 {
-                productname: "Swatch Men's SUOL700 Quartz Turquoise Dial Measures Seconds Plastic Watch"
-                affiliateid: "B004OVDUKI"
+                productname: "New Piper Lux L"
+                image: "https://imaging.stockmann.com/web/118/879/710/F_7cb9eafd79008cb3b8f83f4336bf5b6278f75480/118879710_1.jpg?width=769&height=1026"
+                link: "https://stockmann.com/fi/naiset/asusteet/laukut-ja-lompakot/laukut/new-piper-lux-l-nahkalaukku--11301/119713?itemId=926534" 
                 },
-                {
-                productname: "Swatch Originals Squirrel Rebel Blue Dial Silicone Mens Watch SUON703"
-                affiliateid: "B00AGI5QRI"
-                }
             ]
-            share: "According to http://WhichBrandIsMe.com watch test, I'll turn your head on the beach with my skills! What your taste tells about you?"
-            result: ["We're guessing you've sometimes thought of buying a skateboard. Or just like dancing, hanging out or just an active lifestyle in general. You're the funny guy with not a care in the world. Go on, make 'em smile, that's what you do best!", "You should definitely look at Swatch. Inexpensive European quality in so many colors. Check out these examples!"]
-            points: [2, -1, -3, 0, -2, -2, -1, -2, -1, 8, -5, 0, 0, 0, -2, -2, 0, 2],
+            share: "According to AskMeFive.co test, I'm know my preferences. What your taste tells about you?"
+            result: [""]
+            points: [10, -10, -2, 2, 1],
             total: 0
         },
         {
-            name: "Jaeger-LeCoultre",
+            name: "Ralph Lauren",
             products: [
                 {
-                productname: "Jaeger LeCoultre Amvox2 DBS Mens Watch Q192T450"
-                affiliateid: "B003KV2EJ6"
+                productname: "Newbury Belted Satchel"
+                image: "https://imaging.stockmann.com/web/118/956/350/F_4aedff9373a34bc6bf21cdf56653b41d15392efb/118956350_1.jpg?width=769&height=1026"
+                link: "https://stockmann.com/fi/naiset/asusteet/laukut-ja-lompakot/laukut/lauren-ralph-lauren-newbury-belted-satchel-nahkalaukku--11301/119713?itemId=931685" 
                 },
-                {
-                productname: "Jaeger LeCoultre Master Compressor Extreme World Chronograph Mens Watch Q1768470"
-                affiliateid: "B000LIVR12"
-                }
             ]
-            share: "According to http://WhichBrandIsMe.com watch test, I'm the perfect fusion of technology and style. What your taste tells about you?"
-            result: ["You always were the little engineer, weren't you? You love to know how stuff works, but you still see the beauty in good design. You know that good function needs good form. You're the guy who builds the better world we all need!", "You should definitely check out Jager-Le Coultre. A Swiss company with a long history of technological breakthoughs, JLC loves that loves to show you what's happening inside their creations but still makes beautiful things. Check out these examples!"]
-            points: [3, 3, 2, 1, 2, 2, 0, 2, 2, -12, 5, -3, 1, -1, 1, -2, 2, 0],
+            share: "According to AskMeFive.co test, I'm know my preferences. What your taste tells about you?"
+            result: [""]
+            points: [10, -10, -1, -2, -2],
             total: 0
         },
         {
-            name: "Breitling",
+            name: "Aigner",
             products: [
                 {
-                productname: "Breitling Men's BTA2536313-G675BKRD Bentley Motors T Chronograph Watch"
-                affiliateid: "B004H90L5Y"
+                productname: "Aigner"
+                image: "https://imaging.stockmann.com/web/020/203/032/324/5/F_0ff7aa3a6c80dfa12ab7a501525e31926d783d72/0202030323245_1.jpg?width=769&height=1026"
+                link: "https://stockmann.com/fi/naiset/asusteet/laukut-ja-lompakot/laukut/aigner-nahkalaukku-725292--11301/119713?itemId=725293" 
                 },
-                {
-                productname: "Breitling windrider blackbird mens watch M4435911"
-                affiliateid: "B00APKARJY"
-                }
             ]
-            share: "According to http://WhichBrandIsMe.com watch test I should be applying to Top Gun right now, 'cause I'm a born pilot. What your taste tells about you?"
-            result: ["Swooossh! That's the sound of you soaring! You always liked aeroplanes, maybe even flew one. You have your eyes set in the sky and want to always know which way is up and which way is down. You're co-ordinated and we'd all trust our lives with you!","You must buy a Breitling watch. Breitling is a Swiss quality brand with a long history in aviation. Basically, if it's in an aeroplane, it's a Breitling. Check out these examples!"]
-            points: [3, 2, 2, 0, -1, 2, 2, 2, 1, -12, 5, 1, 2, 4, -2, -2, -3, 2],
+            share: "According to AskMeFive.co test, I'm know my preferences. What your taste tells about you?"
+            result: [""]
+            points: [10, -10, 2, 0, -3],
             total: 0
         },
         {
-            name: "Omega",
+            name: "Michael Kors",
             products: [
                 {
-                productname: "Omega Men's 3570.50.00 Speedmaster Professional Mechanical Chronograph Watch"
-                affiliateid: "B000EJPDOK"
+                productname: "Hamilton LG Traveler"
+                image: "https://imaging.stockmann.com/web/119/003/244/F_4ed5bbd0397dee8686ea4e7900eb1143f0cf5c76/119003244_1.jpg?width=769&height=1026"
+                link: "https://stockmann.com/fi/naiset/asusteet/laukut-ja-lompakot/laukut/michael-michael-kors-hamilton-lg-traveler-nahkalaukku?itemId=934803" 
                 },
-                {
-                productname: "Omega Men's 2201.50.00 Seamaster Planet Ocean Automatic Chronometer Watch"
-                affiliateid: "B000I5OWVU"
-                }
             ]
-            share: "According to http://WhichBrandIsMe.com watch test I'm a real man with style worthy of a Formula 1 pit lane. What your taste tells about you?"
-            result: ["The Olympics, Apollo Program, Formula 1. You're the solid guy who likes things to be punctual and things to be real. You're not afraid of a little sweat or even tears, and that's what makes you a winner. You're the guy who saves the day for the rest of us!", "Check out Omega. If a Swiss watch was a regular guy who became a hero, it'd be Omega. Worn on the Moon and Measuring time in the most important spoting events in recent history, Omega is never behind. Check out these examples!"]
-            points: [2, 2, 1, -2, -3, -1, 3, 2, 2, -12, 3, 4, 4, 2, -3, -2, -3, -2],
+            share: "According to AskMeFive.co test, I'm know my preferences. What your taste tells about you?"
+            result: [""]
+            points: [10, -10, -1, 1, 2],
             total: 0
         },
         {
-            name: "Citizen",
+            name: "Global Accessories",
             products: [
                 {
-                productname: "Citizen Men's BJ7000-52E 'Nighthawk' Stainless Steel Eco-Drive Watch"
-                affiliateid: "B00074KYC8"
+                productname: "Global Accessories"
+                image: "https://imaging.stockmann.com/web/111/030/958/F_04b9b6bcb7f1e83a48700ea5afeb5aa12f466aab/111030958_1.jpg?width=769&height=1026"
+                link: "https://stockmann.com/fi/naiset/asusteet/laukut-ja-lompakot/laukut/global-accessories-nahkalaukku-784692--11301/119713?itemId=784694" 
                 },
-                {
-                productname: "Citizen Men's BL5400-52A Eco-Drive Stainless Steel Sport Watch"
-                affiliateid: "B002NEFI44"
-                }
             ]
-            share: "According to http://WhichBrandIsMe.com watch test I'm an everyday hero, the guy who saves the day for all! What your taste tells about you?"
-            result: ["The daily grind can bring you down, but deep inside you are a hero to us all! You want something that's as sporty as you are and doesn't stand out, 'cause that's just showing off, isn't it? You are the backbone of our world.", "Check out Citizen, a go-to classic of dads everywhere! A sure-fire option at the office or anywhere, you can't go wrong with Citizen. Check out these examples!"]
-            points: [2, 2, -1, -2, -3, -1, 3, 2, -2, 3, -2, 3, 4, 2, -3, -2, -3, -2],
+            share: "According to AskMeFive.co test, I'm know my preferences. What your taste tells about you?"
+            result: [""]
+            points: [-10, 10, -2, 2, 1],
             total: 0
         },
         {
-            name: "Danish design",
+            name: "Armani Jeans",
             products: [
                 {
-                productname: "Danish Designs Men's IQ12Q723 Stainless Steel Watch"
-                affiliateid: "B002IPGJ3C"
+                productname: "Armani Jeans"
+                image: "https://imaging.stockmann.com/web/112/536/145/F_f11e2ae404003b1fed8e39cbee277e43f09d2567/112536145_1.jpg?width=769&height=1026"
+                link: "https://stockmann.com/fi/naiset/asusteet/laukut-ja-lompakot/laukut/armani-jeans-laukku-876584--11301/119713?itemId=876585" 
                 },
-                {
-                productname: "Danish Designs Men's IQ62Q721 Stainless Steel Watch"
-                affiliateid: "B002IPGJP0"
-                }
             ]
-            share: "According to http://WhichBrandIsMe.com watch test I'm a design-perfect blend of Bauhaus and Scandinavia. What your taste tells about you?"
-            result: ["If you're not a graphic designer or an architect, you sure could be one! You like smooth lines, buzz with creative ideas and probably wear turtlenecks and large eyeglasses to work. You are the guy who makes things beautiful for all of us!", "Check out Danish Design, a brand with more Scandinavian class than Stellan Skärsgård. DD makes simple, elegant watches with a distinct Scandinavian or 20s German style. Check out these examples!"]
-            points: [3, -2, 0, 2, 3, 3, -2, -2, 0, 4, 0, -3, -3, -2, 4, -2, 6, 2],
+            share: "According to AskMeFive.co test, I'm know my preferences. What your taste tells about you?"
+            result: [""]
+            points: [-10, 10, -1, -2, -2],
             total: 0
+        },
+        {
+            name: "Marimekko",
+            products: [
+                {
+                productname: "Marimekko"
+                image: "https://imaging.stockmann.com/web/118/461/083/F_20a27ef109585a3d8e9ecc96dcf2cc31930059d5/118461083_1.jpg?width=769&height=1026"
+                link: "https://stockmann.com/fi/naiset/asusteet/laukut-ja-lompakot/laukut/marimekko-mini-weekender-laukku-907398--11301/119713?itemId=907399" 
+                },
+            ]
+            share: "According to AskMeFive.co test, I'm know my preferences. What your taste tells about you?"
+            result: [""]
+            points: [-10, 10, 2, 0, -3],
+            total: 0
+        },
+        {
+            name: "Ralph Lauren",
+            products: [
+                {
+                productname: "Denim & Supply"
+                image: "https://imaging.stockmann.com/web/115/682/146/F_ecea608c6b2fbc3b124c327bf2065ca00b20b05d/115682146_1.jpg?width=769&height=1026"
+                link: "https://stockmann.com/fi/naiset/asusteet/laukut-ja-lompakot/laukut/denim-supply-ralph-lauren-kanvaslaukku--11301/119713?itemId=825307" 
+                },
+            ]
+            share: "According to AskMeFive.co test, I'm know my preferences. What your taste tells about you?"
+            result: [""]
+            points: [-10, 10, -1, 1, 2],
+            total: 0
+        },
+        {
+            name: "Ralph Lauren",
+            products: [
+                {
+                productname: "Novelty N/S Tote"
+                image: "https://imaging.stockmann.com/web/020/202/903/891/4/F_5666db0c144a977f8fa8142057086090f3d06d74/0202029038914_1.jpg?width=769&height=1026"
+                link: "https://stockmann.com/fi/naiset/asusteet/laukut-ja-lompakot/laukut/lauren-ralph-lauren-novelty-n-s-tote-laukku--11301/119713?itemId=760294" 
+                },
+            ]
+            share: "According to AskMeFive.co test, I'm know my preferences. What your taste tells about you?"
+            result: [""]
+            points: [-10, -10, -2, 2, 1],
+            total: 0
+        },
+        {
+            name: "Armani Jeans",
+            products: [
+                {
+                productname: "Armani Jeans"
+                image: "https://imaging.stockmann.com/web/112/526/726/F_d9dea92c444c1344c136bfe24fefb7313625c6cf/112526726_1.jpg?width=769&height=1026"
+                link: "https://stockmann.com/fi/naiset/asusteet/laukut-ja-lompakot/laukut/armani-jeans-laukku-876576--11301/119713?itemId=876577" 
+                },
+            ]
+            share: "According to AskMeFive.co test, I'm know my preferences. What your taste tells about you?"
+            result: [""]
+            points: [-10, -10, -1, -2, -2],
+            total: 0
+        },
+        {
+            name: "Marimekko",
+            products: [
+                {
+                productname: "Olkalaukku"
+                image: "https://imaging.stockmann.com/web/020/200/812/684/7/F_6134024a304c730aa8bdbe809bdb80e079cfbf1e/0202008126847_1.jpg?width=769&height=1026"
+                link: "https://stockmann.com/fi/naiset/asusteet/laukut-ja-lompakot/laukut/marimekko-olkalaukku--11301/119713?itemId=671734" 
+                },
+            ]
+            share: "According to AskMeFive.co test, I'm know my preferences. What your taste tells about you?"
+            result: [""]
+            points: [-10, -10, 2, 0, -3],
+            total: 0
+        },
+        {
+            name: "Global Accessories",
+            products: [
+                {
+                productname: "Global Accessories"
+                image: "https://imaging.stockmann.com/web/111/022/311/F_7f3d44f9c4c6b66df5d1c52d18fbd826743976e6/111022311_1.jpg?width=769&height=1026"
+                link: "https://stockmann.com/fi/naiset/asusteet/laukut-ja-lompakot/laukut/global-accessories-nahkalaukku-784763--11301/119713?itemId=784765" 
+                },
+            ]
+            share: "According to AskMeFive.co test, I'm know my preferences. What your taste tells about you?"
+            result: [""]
+            points: [-10, -10, 2, 0, -3],
+            total: 0
+
         }
     ]    
 
@@ -208,7 +250,7 @@ $ ->
             name: 'Find out which watch brand is most like you',
             caption: 'Take the WhichBrandIsMe watch test to find out which watch brand fits your personality and style.'
             description: winner.share
-            picture: 'http://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN='+winner.products[0].affiliateid+'&Format=_ML160_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whichbrandi0e-20'
+            picture: 'https://imaging.stockmann.com'+winner.products[0].affiliateid
 
     onReloadClick = ->
         location.reload(true)
