@@ -18,7 +18,7 @@ $ ->
                 },
             ]
             share: "According to AskMeFive.co test, I'm not afraid to show that I've made it in life. What your taste tells about you?"
-            result: [""]
+            result: ["Näyttävässä nahkalaukussa on värjättyä vasikan karvaa ja metallisia niittisomisteita. Laukku suljetaan magneettinapilla ja sisällä on tunnuskuvioitu tekstiilivuori, neljä avointa taskua ja vetoketjullinen tasku. Laukussa on kantokahvat ja kantohihna metallisella ketjulla. Tyylikkään laukun pohjassa on metallinastat."]
             points: [10, 10, -2, 2, 1],
             total: 0
         },
@@ -32,7 +32,7 @@ $ ->
                 },
             ]
             share: "According to AskMeFive.co test, I'm know my preferences. What your taste tells about you?"
-            result: [""]
+            result: ["Tilavassa ja monikäyttöisessä nahkalaukussa on punottuja yksityiskohtia, lyhyet kantokahvat sekä irrotettava olkahihna. Etupuolella on magneettinapillinen tasku ja laukku suljetaan päältä vetoketjulla. Sisäpuolella on kangasvuori, vetoketjutasku sekä avotaskuja. Ulkopohjassa on pyöristetyt metallinastat."]
             points: [10, 10, -1, -2, -2],
             total: 0
         },
@@ -46,7 +46,7 @@ $ ->
                 },
             ]
             share: "According to AskMeFive.co test, I'm know my preferences. What your taste tells about you?"
-            result: [""]
+            result: ["Tilavassa nahkalaukussa on runsaasti tilaa tavaroille. Laukun päältä avautuu kaksi vetoketjulla suljettavaa osiota, joiden sisällä on sivutaskuja. Laukun keskiosassa on vetoketjulla suljettava tasku, kaksi avointa tilaa tavaroille sekä kiinnitys magneettinapilla. Laukun sivuilla on vetoketjut, joiden avulla syvyyttä voi säädellä. Ulkopuolella on magneettinapilla suljettava sivutasku. Laukkua kannetaan vankoista kantokahvoista tai litteällä, irrotettavalla olkahihnalla. Sisäpuoli on vuorattu hillitysti kuvioidulla vuorikankaalla."]
             points: [10, 10, 2, 0, -3],
             total: 0
         },
@@ -60,7 +60,7 @@ $ ->
                 },
             ]
             share: "According to AskMeFive.co test, I'm know my preferences. What your taste tells about you?"
-            result: [""]
+            result: ["Tilavassa nahkalaukussa on metallinen reunus, johon on kiinnitetty lyhyt kantokahva. Laukussa on myös leveä, irrotettava olkahihna ja taustapuolella on tilava magneettinapillinen tasku. Laukku suljetaan soljellisella läpällä ja sisäpuolella on kangasvuori, kaksi avotaskua sekä vetoketjutasku. Pohjassa on metallinastat."]
             points: [10, 10, -1, 1, 2],
             total: 0
         },
@@ -74,7 +74,7 @@ $ ->
                 },
             ]
             share: "According to AskMeFive.co test, I'm know my preferences. What your taste tells about you?"
-            result: [""]
+            result: ["Tilavassa ja jämäkässä nahkalaukussa on lyhyet kantohihnat, leveä irrotettava olkahihna ja edessä kääntösoljellinen tasku. Takana on tilava lukollinen vetoketjutasku. Laukku suljetaan päältä vetoketjulla ja sisäpuolella on kangasvuori, vetoketjutasku ja kaksi avotaskua. Pohjassa on metallinastat."]
             points: [10, -10, -2, 2, 1],
             total: 0
         },
@@ -88,7 +88,7 @@ $ ->
                 },
             ]
             share: "According to AskMeFive.co test, I'm know my preferences. What your taste tells about you?"
-            result: [""]
+            result: ["Tyylikäässä nahkalaukussa on hillitysti kuvioitu pinta, solkisomisteinen hihna yläreunassa ja pyöristetyt kantokahvat. Mukana on myös irrotettava olkahihna. Laukku suljetaan päältä magneetilla ja sisäpuolella on kangasvuori, kaksi avotaskua, painonapillinen tasku sekä vetoketjutasku. Pohjassa on nastat."]
             points: [10, -10, -1, -2, -2],
             total: 0
         },
@@ -102,7 +102,7 @@ $ ->
                 },
             ]
             share: "According to AskMeFive.co test, I'm know my preferences. What your taste tells about you?"
-            result: [""]
+            result: ["Tilavassa nahkalaukussa on runsaasti tilaa tavaroille. Laukun päältä avautuu kaksi vetoketjulla suljettavaa osiota, joiden sisällä on sivutaskuja. Laukun keskiosassa on vetoketjulla suljettava tasku, kaksi avointa tilaa tavaroille sekä kiinnitys magneettinapilla. Laukun sivuilla on vetoketjut, joiden avulla syvyyttä voi säädellä. Ulkopuolella on magneettinapilla suljettava sivutasku. Laukkua kannetaan vankoista kantokahvoista tai litteällä, irrotettavalla olkahihnalla. Sisäpuoli on vuorattu hillitysti kuvioidulla vuorikankaalla. Mitat ovat 36 x 30 x 13 cm."]
             points: [10, -10, 2, 0, -3],
             total: 0
         },
@@ -116,7 +116,7 @@ $ ->
                 },
             ]
             share: "According to AskMeFive.co test, I'm know my preferences. What your taste tells about you?"
-            result: [""]
+            result: ["Näyttävässä nahkalaukussa on kuvioitu ja pehmeäpintainen etupuoli, pyöristetyt kantokahvat ja irrotettava olkahihna. Päädyt ovat mokkanahkaiset. Yläreunaa kiertää lukkosomisteinen hihna. Laukku suljetaan päältä vetoketjulla ja sisäpuolella on logokuvioitu vuori, kolme avotaskua, vetoketjutasku sekä avainhihna. Pohjassa on metallinastat."]
             points: [10, -10, -1, 1, 2],
             total: 0
         },
@@ -130,7 +130,7 @@ $ ->
                 },
             ]
             share: "According to AskMeFive.co test, I'm know my preferences. What your taste tells about you?"
-            result: [""]
+            result: ["Krokokuosisessa nahkalaukussa on pyöristetyt olkahihnat ja päissä painonapit, joilla yläreunaa voi hiukan säätää. Laukku suljetaan päältä soljella ja vetoketjulla, sisäpuolella on kangasvuori, vetoketjutasku sekä tilava avotasku. Pohjassa on metallinastat."]
             points: [-10, 10, -2, 2, 1],
             total: 0
         },
@@ -144,7 +144,7 @@ $ ->
                 },
             ]
             share: "According to AskMeFive.co test, I'm know my preferences. What your taste tells about you?"
-            result: [""]
+            result: ["Vinyylipintaisessa laukussa on näyttävä, kimaltavalla somisteella koristeltu kohopainatettu logo ja litteät kantohihnat. Laukun sivuilla on painonapit, joiden avulla laukun syvyyttä voi säädellä. Sisäpuolella on vetoketjutasku ja kaksi avolokeroa. Sisäpuoli on vuorattu logokuvioidulla kankaalla. Laukku suljetaan magneettinapilla."]
             points: [-10, 10, -1, -2, -2],
             total: 0
         },
@@ -158,7 +158,7 @@ $ ->
                 },
             ]
             share: "According to AskMeFive.co test, I'm know my preferences. What your taste tells about you?"
-            result: [""]
+            result: ["Ristomatti Ratian suunnittelema Mini Weekender on nimestään huolimatta tilava laukku, jossa on säädettävä olkahihna. Laukku suljetaan magneettinapilla ja vetoketjulla. Sisäpuolella on kaksi avolokeroa ja vetoketjutasku. Materiaali on 100 % puuvillaa."]
             points: [-10, 10, 2, 0, -3],
             total: 0
         },
@@ -172,7 +172,7 @@ $ ->
                 },
             ]
             share: "According to AskMeFive.co test, I'm know my preferences. What your taste tells about you?"
-            result: [""]
+            result: ["Kanvaslaukussa on näyttävä painatus edessä ja nahkaiset kahvat. Laukku suljetaan painonapilla ja sisäpuolella on kaksi avotaskua. Materiaali on puuvillaa."]
             points: [-10, 10, -1, 1, 2],
             total: 0
         },
@@ -186,7 +186,7 @@ $ ->
                 },
             ]
             share: "According to AskMeFive.co test, I'm know my preferences. What your taste tells about you?"
-            result: [""]
+            result: ["Tilava laukku on päältä avoin ja vuoriton. Kantohihnoissa on ketjusomisteet ja sisäpuolella avotasku. Materiaali on keinonahkaa."]
             points: [-10, -10, -2, 2, 1],
             total: 0
         },
@@ -200,7 +200,7 @@ $ ->
                 },
             ]
             share: "According to AskMeFive.co test, I'm know my preferences. What your taste tells about you?"
-            result: [""]
+            result: ["Vinyylipintaisessa laukussa on näyttävä, kimaltavalla somisteella koristeltu kohopainatettu logo ja litteät kantohihnat. Laukun sivuilla on painonapit, joiden avulla laukun syvyyttä voi säädellä. Sisäpuolella on vetoketjutasku ja kaksi avolokeroa. Sisäpuoli on vuorattu logokuvioidulla kankaalla. Laukku suljetaan magneettinapilla."]
             points: [-10, -10, -1, -2, -2],
             total: 0
         },
@@ -214,7 +214,7 @@ $ ->
                 },
             ]
             share: "According to AskMeFive.co test, I'm know my preferences. What your taste tells about you?"
-            result: [""]
+            result: ["Ristomatti Ratian suunnittelemassa, suuren suosion saavuttaneessa laukussa on pitkä säädettävä olkahihna, avotaskuja ja yksi tilava osio tavaroille. Markiisikankainen laukku on materiaaliltaan 100 % puuvillaa. Käsinpesu."]
             points: [-10, -10, 2, 0, -3],
             total: 0
         },
@@ -228,7 +228,7 @@ $ ->
                 },
             ]
             share: "According to AskMeFive.co test, I'm know my preferences. What your taste tells about you?"
-            result: [""]
+            result: ["Näppärän kokoisessa ja tyylikkäässä nahkalaukussa on lyhyt kantokahva ja erillinen irrotettava ja säädettävä olkahihna. Sivuilla on vetoketjulevikkeet, joilla laukkuun saa halutessaan lisää tilavuuttaa. Laukku suljetaan vetoketjulla ja sisäpuolella on tekstiilivuori sekä useita lokeroita pienille esineille. Laukun mitat ovat 32 x 34 x 14 cm."]
             points: [-10, -10, 2, 0, -3],
             total: 0
 
